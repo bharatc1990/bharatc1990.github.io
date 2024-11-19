@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Styling Example</title>
+    <style>
+        /* Style the link */
+        a {
+            color: #007bff; /* Blue color */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size */
+            padding: 5px 10px; /* Padding around the link */
+            border-radius: 4px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        /* Style the link when hovered over */
+        a:hover {
+            background-color: #007bff; /* Blue background on hover */
+            color: white; /* White text on hover */
+        }
+
+        /* Style the link when focused */
+        a:focus {
+            outline: 2px solid #007bff; /* Blue outline on focus */
+        }
+
+        /* Style the link visited */
+        a:visited {
+            color: #5a5a5a; /* Dark gray color for visited links */
+        }
+    </style>
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <h1>Welcome to My Webpage</h1>
+    <p>Click the link below to visit an example site:</p>
+    <a href="https://drive.google.com/drive/folders/1aQxByCVH-K_aVp4upZicvWkHIwpHlYiY?usp=sharing" target="_blank">Engg. Graphics study material</a>
 
 </body>
 </html>
+
